@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cursor{
+    height: 30px;
+    width: 30px;
+    background-color: #e7c82f;
+    border-radius: 50%;
+    border: 2px solid #e7c82f;
+    position: absolute;
+    display: absolute;
+    opacity: 1;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: (transparent,#30ff00);
+    border-radius: 6px;
+background:linear-gradient(#181c23,#e7c82f);
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: yellow;
+}
+/* Cursor End*/
+
+body{
+    cursor:grabbing;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    padding: 30px;
+}
+.navbar-nav .nav-item{
+    padding:0px 30px;
+
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: black;
+    color: white;
+    clip-path: polygon(20% 0%, 80% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+}
+.d-flex .btn{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+height: 50px;
+width: 130px;
+padding-right: 20px;
+font-size: 20px;
+}
+.d-flex:hover{
+    color: black;
+}
+.d-flex .btn a{
+    text-decoration: none;
+    color: yellow;
+}
+.d-flex .btn:hover a{
+    color: black;
+}
+@media (max-width:140px) {
+    .navbar-brand{
+        font-size: 17px;
+    }
+}
+@media (max-width:120px) {
+    .navbar-brand{
+        font-size: 14px;
+    }
+}
+/* Sing Up */
+#singup{
+background-image: url(../images/sign\ page.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+height: auto;
+padding-bottom: 150px;
+
+}
+#singup .sing-text .abo{
+font-size: 75px;
+padding-top: 95px;
+color: white;
+margin-bottom: 30px;
+font-family: "Anurati";
+
+}
+.home .ho{
+    text-decoration: none;
+    color:white ;
+}
+.home .ab{
+    text-decoration: none;
+color: aqua;
+
+}
+@media (max-width:750px) {
+#singup .sing-text .abo{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.home .ab{
+    font-size: 15px;
+}
+.home .ho{
+    font-size: 15px;
+}
+}
+@media (max-width:200px) {
+    #singup .sing-text .abo{
+        font-size: 25px;}
+}
+/* form */
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+/* #btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+} */
+
+#form{
+    background-color: #181c23;
+   padding-top: 40px; 
+}
+.form-text h1{
+    font-size: 75px;
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 150px;
+    font-family: "Anurati";
+
+}
+.form-img-img{
+    width: 550px;
+    height: 500px;
+    cursor: pointer;
+}
+.form-col{
+    margin-top: 100px;
+}
+.form{
+    margin-top: 30px;
+    /* width: 550px; */
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+}
+.form:hover{
+    border: 2px solid yellow;
+
+}
+.form-control:hover{
+    border: 2px solid yellow;
+}
+.form-btn .btn{
+    color: white;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    
+}
+.form-btn .btn{
+    margin: auto;
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+.form-btn .btn:hover{
+    color: black;
+}
+@media (max-width:750px) {
+    .form-btn .btn{
+        width: 150px;
+    }
+    .form-img-img{
+        width: 300px;
+        height: 300px;
+        
+        
+    }
+    .form-text h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:300px) {
+
+.form-img-img{
+    width: 200px;
+    height: 200px;}
+}
+@media (max-width:200px) {
+    .form-text h1{
+        font-size: 20px;}
+
+.form-img-img{
+    width: 150px;
+    height: 150px;}
+}
+@media (max-width:150px) {
+    .form-text h1{
+        font-size: 20px;}
+
+.form-img-img{
+    width: 100px;
+    height: 100px;}
+    .form-btn .btn{
+        width: 100px;
+    }
+}
+/* footer  */
+footer{
+    background-color: #181c23 ;
+}
+.local{
+    color: purple;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pho{
+    color: purple;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.cont{
+    color: white;
+    font-size: 25px;
+}
+.win{
+    font-size: 20px;
+
+}
+.prod{
+    font-size: 25px;
+
+}

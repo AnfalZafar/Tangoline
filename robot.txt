@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow:/
+
+Sitemap: http://std1412264.aptech-students.com/tangoline/sitemap.xml

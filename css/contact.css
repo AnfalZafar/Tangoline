@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: (transparent,#30ff00);
+    border-radius: 6px;
+background:linear-gradient(#181c23,#e7c82f);
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: yellow;
+}
+/* Cursor */
+#cursor{
+    height: 30px;
+    width: 30px;
+    background-color: #e7c82f;
+    border-radius: 50%;
+    border: 2px solid #e7c82f;
+    position: absolute;
+    display: absolute;
+    opacity: 1;
+}
+/* Cursor End*/
+
+body{
+    cursor:grabbing;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    padding:30px;
+}
+.navbar-nav .nav-item{
+    padding:0px 30px;
+
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: black;
+    color: white;
+    clip-path: polygon(20% 0%, 80% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+}
+.d-flex .btn{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+height: 50px;
+width: 130px;
+padding-right: 20px;
+font-size: 20px;
+}
+.d-flex:hover{
+    /* text-decoration: underline black; */
+    color: black;
+}
+.d-flex .btn a{
+    text-decoration: none;
+    color: yellow;
+}
+.d-flex .btn:hover a{
+    /* text-decoration:underline black; */
+    color: black;
+}
+@media (max-width:140px) {
+    .navbar-brand{
+        font-size: 17px;
+    }
+}
+@media (max-width:120px) {
+    .navbar-brand{
+        font-size: 14px;
+    }
+}
+/* contact */
+#contact{
+background-image: url(../images/contact\ page.webp);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+width: 100%;
+padding-top: 95px;
+color: white;
+padding-bottom: 150px;
+}
+.contact-text .conta{
+    font-size: 75px;
+    margin-bottom: 30px;
+    font-family: "Anurati";
+letter-spacing: 3px;
+}
+.contact-text .ho{
+    text-decoration: none;
+    color: white;
+}
+.contact-text .con{
+    text-decoration: none;
+color: aqua;
+
+}
+@media (max-width:750px) {
+    .contact-text .conta{
+        font-size: 55px;
+        
+    } 
+}
+@media (max-width:220px) {
+    .contact-text .conta{
+        font-size: 25px;
+        
+    }
+    .contact-text .ho{
+        font-size: 15px;
+    }
+    .contact-text .con{
+        font-size: 15px;
+    }
+}
+/* contact text */
+
+#contact-text{
+    background-color: #181c23;
+padding-bottom: 150px;
+
+}
+.card1{
+    background-color: black;
+    clip-path: polygon(14% 0, 85% 0, 95% 20%, 95% 80%, 84% 100%, 15% 100%, 3% 79%, 3% 19%);
+    height: 350px;
+/* padding-top: 50px; */
+color: white;
+}
+.logo{
+    background-color: rgb(20,7,75);
+padding-top: 50px;
+padding-bottom: 60px;
+
+}
+.logo-text{
+    padding-top: 30px;
+}
+.hp{
+    font-size: 55px;
+    color: white;
+    background-color: rgb(37,26,89);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+/* Form */
+#form{
+    background-color: #181c23;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.form-text h1{
+    font-size: 75px;
+padding-top: 50px;
+padding-bottom: 100px;
+color: white;
+font-family: "Anurati";
+letter-spacing: 3px;
+}
+.form-control{
+    border: 2px solid rgb(40,30,77);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    height: 50px;
+    color: white;
+}
+.form-control:hover{
+    border: 2px solid purple;
+}
+.form:hover{
+    border: 2px solid purple;
+
+}
+.adress{
+    background-color: #181c23;
+    
+}
+.mess{
+    height: 100px;
+    background-color: rgb(14,19,62);
+}
+.form-text .btn{
+    color: white;width: 200px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+@media (max-width:750px) {
+    .form-text .btn{
+        font-size: 45px;
+        font-size: 10px;
+    }
+    .form-text h1{
+        font-size: 35px;
+    
+        }
+   
+}
+@media (max-width:200px) {
+    .form-text .btn{
+        width: 100px;
+    }
+    .form-text h1{
+        font-size: 25px;
+    
+        }
+}
+/* footer */
+footer{
+    background-color: #181c23 ;
+}
+.local{
+    color: purple;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pho{
+    color: purple;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.cont{
+    color: white;
+    font-size: 25px;
+}
+.win{
+    font-size: 20px;
+
+}
+.prod{
+    font-size: 25px;
+
+}

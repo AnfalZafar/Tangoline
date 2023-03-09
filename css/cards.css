@@ -1,0 +1,160 @@
+body{
+    background-color: #181c23;
+
+  
+  cursor:grabbing;
+   
+  }
+
+  /* navbar starts  */
+  .navbar{
+      background-color: black;
+  }
+  .navbar-nav .nav-item .nav-link{
+      color: white;
+      padding:  35px;
+  }
+  .dropdown-menu .dropdown-item:hover{
+      background-color: black;
+      color: white;
+      clip-path: polygon(20% 0%, 80% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  
+  }
+  .d-flex .btn{
+      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  height: 50px;
+  width: 130px;
+  padding-right: 20px;
+  font-size: 20px;
+  }
+  .d-flex:hover{
+      text-decoration: underline black;
+      color: black;
+  }
+  .d-flex .btn a{
+      text-decoration: none;
+      color: yellow;
+  }
+  .d-flex .btn:hover a{
+      text-decoration:underline black;
+      color: black;
+  }
+
+  /* cursor ends  */
+
+
+  /* cursor  */
+  #cursor{
+    height: 30px;
+    width: 30px;
+    background-color: #e7c82f;
+    border-radius: 50%;
+    border: 2px solid #e7c82f;
+    position: absolute;
+    display: absolute;
+    opacity: 1;
+}
+/* cursor  */
+
+
+.container-fluid .btn:hover{
+    color: white;
+    background-color: #e7c82f;
+    }
+
+
+    .img{
+        background-image: url(./2021_12_ps5-uhd-logo-1780466966.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 118rem;
+        height: 80rem;
+    }
+
+    #bgbro{
+        background: #181c23;
+    }
+    #bgbro p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.6rem;
+        padding-top: 5rem;
+        color: white;
+    }
+
+    .card{
+        margin-top: 10rem;
+    }
+
+
+
+
+
+
+    .container-fluid .product-section{
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    .container-fluid .product-section .detail ul{
+        font-size: 1rem;
+    padding-top: 3rem;
+    color:white;
+    }
+
+    .container-fluid .product-section .detail img{
+      
+        margin-bottom: 5rem;
+    }
+
+.container-fluid .product-section .detail ul{
+    padding-left: 3rem  ;
+}
+.container-fluid .product-section .key-features .h1{
+    color: rgb(38, 140, 223);
+    padding-top: 10rem;
+    font-family: "Anurati";
+}
+
+.container-fluid .product-section .key-features img{
+    margin-top: 6rem;
+margin-left: 30rem;
+
+}
+
+.container-fluid .product-section .key-features ul{
+    color: white;
+ justify-content: center;
+ padding-top: 5rem;
+}
+
+
+.container-fluid .header-section .btn:hover{
+    background-color: rgb(38, 140, 223);
+    color: white;
+border-radius: 1rem;
+}
+
+.container-fluid .header-section .btn{
+   padding-left:3rem;
+   padding-right: 3rem;
+   margin-top: 2rem;
+   margin-bottom: 3rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-radius: 1rem;
+}
+
+.container-fluid  .product-section .imgsection img:hover{
+transform: scale(1.1);
+}
+.container-fluid .product-section .imgsection{
+    overflow: hidden;
+}
+.container-fluid  .product-section .imgsection img{
+    transition: all 0.3s ease-out;
+}
+.container-fluid  .product-section img:hover{
+    transform: scale(1.1);
+}
+.container-fluid .product-section #bruh img{
+    transform: scale(1.3);
+}
